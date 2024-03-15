@@ -32,7 +32,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 handler.help = ['acertijo']
 handler.tags = ['game']
-handler.command = /^(acertijo|acert|pregunta|adivinanza|tekateki)$/i
+handler.command = /^acertijo|riddle$/i
 handler.register = true
 
 export default handler
